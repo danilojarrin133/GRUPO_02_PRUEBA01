@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Comandante</title>
+		<meta name="description" content="">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	   	<link rel="stylesheet" href="../css/iconbar.css">
+	    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+	    <link rel="stylesheet" href="../css/main.css">
+	</head>
+	<body>
+		<!-- Header -->
+		<div class="container text-center color1 centrar a " style="height:  30px" >
+		</div>
+		<div class="container text-center color1 centrar a " style="height:  120px" >
+			<img src="../imagenes/logo_ESPE.png" style="width:400px;height:89px;">
+		</div>
+
+		<!-- navBar -->
+		<nav class="container navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#ejemplo-5">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="ejemplo-5">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Docente</a></li>
+							<li><a href="comandante.html">Comandante</a></li>
+							<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupos<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<div class="btn-group-vertical">
+										<button class="btn " disabled="disabled">Grupo 1</button>
+										<button class="btn "data-toggle="modal" data-target="#modal2">Grupo 2</button>
+										<button class="btn " disabled="disabled">Grupo 3</button>
+										<button class="btn " disabled="disabled">Grupo 4</button>
+										<button class="btn " disabled="disabled">Grupo 5</button>
+										<button class="btn " disabled="disabled">Grupo 6</button>
+										<button class="btn " disabled="disabled">Grupo 7</button>
+										<button class="btn " disabled="disabled">Grupo 8</button>
+									</div>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form text-right">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="buscar">
+							</div>
+							<boton class="btn btn-success">Buscar</boton>
+						</form>
+					</div>
+				</div>
+		</nav>
+
+		<div class="container ">
+			<div class="row">
+				
+				<div class="col-lg-7 col-sm-12 col-md-7 color2 centrar " style="height: 400px; padding-top: 75px;">
+					<center>
+						<form action="#" class="credit-card-div">
+						<div class="panel panel-default" >
+						 <div class="panel-heading">
+						     
+						      <div class="row ">
+						              <div class="col-md-12">
+						              	 <span class="help-block text-muted small-font" > USUARIO</span>
+						                  <input type="text" class="form-control" placeholder="Ingrese su usuario" />
+						              </div>
+						          </div>
+						      <div class="row ">
+						              <div class="col-md-12">
+						              	 <span class="help-block text-muted small-font" > CONTRASEÑA</span>
+						                  <input type="password" class="form-control" placeholder="Ingrese su contraseña" />
+						              </div>
+						          </div>
+						     <div class="row">
+						<div class="col-md-12 pad-adjust">
+						    <div class="checkbox text-left">
+						    <label>
+						    	<input type="checkbox" checked > Recordarme.
+						    </label>
+						  </div>
+						</div>
+						     </div>
+						       <div class="row ">
+						            <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+						                 <input type="reset"  class="btn btn-danger" value="CANCELAR" />
+						              </div>
+						              <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+						              	<a class="btn btn-success" type="submit" href="../Index.html">INGRESAR</a>                  
+						              </div>
+						          </div>
+						     
+						                   </div>
+						              </div>
+						</form>
+					</center>
+				</div>
+				<div class="col-lg-5 col-sm-12 col-md-6 center-block well  " style="height: 400px;padding-top: 75px;>
+					<div class="text-center"  >
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ASGiWZlhXTI" frameborder="0" allowfullscreen style="width:100%;height:90%"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<div class="container text-center color1" > 
+			<button class="btn btn-primary">
+						<span class="icon-facebook app2"> facebook</span>
+					</button>
+			<button class="btn btn-info">
+						<span class="icon-twitter app2"> twitter</span>
+					</button>
+					<button class="btn btn-danger ">
+						<span class="icon-google app2">Google</span>
+					</button>		
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+		        <button type="button" class="btn btn-primary">Guardar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<!-- Modal Grupo2-->
+		<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  	<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header color2">
+			        	<h3 class="modal-title centrar" id="exampleModalLongTitle">GRUPO 2</h3>
+			      	</div>
+			    	<div class="modal-body">
+			        	<div class="table-responsive">
+			        		<div style="margin-top: 30px;"></div>
+			        		<table class="table table-bordered">
+				        		<thead>
+				        			<tr>INTEGRANTE 1</tr> 
+									<tr class="active">
+										<tr>
+											<td class="color1">Nombres:</td>
+											<td>Bryan Joel</td>
+										</tr>
+										<tr>
+											<td class="color1">Apellidos:</td>
+											<td>Castillo Jimenez</td>
+										</tr>
+										<tr>
+											<td class="color1">Correo:</td>
+											<td>bjcastillo@espe.edu.ec</td>
+										</tr>
+										<tr>
+											<td class="color1">Número</td>
+											<td>0999849985</td>
+										</tr>
+										<tr>
+											<td class="color1">Carrera:</td>
+											<td>Tecnologías de la Información</td>
+										</tr>
+									</tr>
+								</thead>	
+			        		</table>
+			        		<div style="margin-top: 50px;"></div>
+			        		<table class="table table-bordered ">
+				        		<thead>
+				        			<tr >INTEGRANTE 2</tr>
+									<tr class="active">
+										<tr>
+											<td class="color1">Nombres:</td>
+											<td>Danilo Alfonso</td>
+										</tr>
+										<tr>
+											<td class="color1">Apellidos:</td>
+											<td>Jarrín Raza</td>
+										</tr>
+										<tr>
+											<td class="color1">Correo:</td>
+											<td>dajarrin6@espe.edu.ec</td>
+										</tr>
+										<tr>
+											<td class="color1">Número:</td>
+											<td>0979965347</td>
+										</tr>
+										<tr>
+											<td class="color1">Carrera:</td>
+											<td>Tecnologías de la Información</td>
+										</tr>
+									</tr>
+								</thead>	
+			        		</table>
+			        	</div>
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+			      	</div>
+			    </div>
+		  	</div>
+		</div>
+
+		<!-- Modal Registro-->
+		<div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		    			<center>
+		    			<div class="panel" style="width:90%;height:70%; background-color: #dcdcdc ;" >
+		    				<div class="panel-heading text-center" style="background-color: #8c8c8c;">
+			                   <h3>Registro</h3> 
+			                </div>
+			        		<form >
+							  	
+							  	<div class="form-group row">
+							    	<label for="name" class="col-sm-2 col-lg-4  col-form-label text-right">Nombre:</label>
+							    	<div class="col-sm-7 col-lg-6 " >
+							      	<input type="name" class="form-control" id="inputPassword" placeholder="Nombre">
+							    	</div>
+							  	</div>
+							  	<div class="form-group row">
+							    	<label for="name" class="col-sm-2 col-lg-4 col-form-label text-right">Apellido:</label>
+							    	<div class="col-sm-7 col-lg-6 ">
+							      	<input type="name" class="form-control" id="inputPassword" placeholder="Apellido">
+							    	</div>
+							  	</div>
+							  	<div class="form-group row">
+							    	<label for="name" class="col-sm-2 col-lg-4 col-form-label text-right">Usuario:</label>
+							    	<div class="col-sm-7 col-lg-6 ">
+							      	<input type="name" class="form-control" id="inputPassword" placeholder="Usuario">
+							    	</div>
+							  	</div>
+							  	<div class="form-group row">
+							    	<label for="inputPassword" class="col-sm-2 col-lg-4 col-form-label text-right">Contraseña:</label>
+							    	<div class="col-sm-7 col-lg-6 ">
+							      	<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+							    	</div>
+							  	</div>
+							  	<div class="form-group row">
+							    	<label for="name" class="col-sm-2 col-lg-4 col-form-label text-right">Género:</label>
+							    	<div class="col-sm-7 col-lg-6 ">
+							      		<div class="form-check">
+										  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+										  <label class="form-check-label" for="flexRadioDefault1">
+										    Masculino
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+										  <label class="form-check-label" for="flexRadioDefault2">
+										    Femenino
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+										  <label class="form-check-label" for="flexRadioDefault2">
+										    LGBTI
+										  </label>
+										</div>
+							    	</div>
+							  	</div>
+							</form>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Guardar</button>
+						</div>
+						</center>
+		    		</div>
+		  		</div>
+			</div>
+		</div>
+
+
+
+		<script type="text/javascript" src="../js/vendor/jquery-1.11.0.min.js"></script>
+	    <script type="text/javascript" src="../js/vendor/bootstrap.min.js"></script>
+	</body>
+</html>
